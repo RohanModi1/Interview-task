@@ -5,6 +5,7 @@ const CartSlice = createSlice({
   initialState: {
     cart: [],
   },
+  
   reducers: {
     addToCart: (state, action) => {
       const existingItem = state.cart.find(
